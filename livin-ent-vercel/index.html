@@ -1,12 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LIVIN Ent!</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+<h1 id="livin-ent">
+  <span>LIVIN</span> ENT
+</h1>
+
+<section id="products">
+  <div class="product">
+    <h2>T-Shirts</h2>
+    <p>Price: $59.99</p>
+    <p>Available Colors: Black, Grey, White</p>
+  </div>
+  <div class="product">
+    <h2>Hoodies</h2>
+    <p>Price: $89.99</p>
+    <p>Available Colors: Black, Grey, White</p>
+  </div>
+  <div class="product">
+    <h2>Shorts</h2>
+    <p>Price: $49.99</p>
+    <p>Available Colors: Black, Grey, White</p>
+  </div>
+  <div class="product">
+    <h2>Hats</h2>
+    <p>Price: $34.99</p>
+    <p>Available Colors: Black, Grey, White</p>
+  </div>
+</section>
+
+<style>
+  #livin-ent {
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+  }
+
+  #livin-ent span {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+  }
+
+  #products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .product {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .product h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .product p {
+    font-size: 18px;
+    color: black;
+  }
+</style>
